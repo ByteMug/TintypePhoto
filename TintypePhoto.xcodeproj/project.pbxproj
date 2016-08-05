@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		948AD8D07ADE1A810439F4CA /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AD8BE164D8E2D76988F40 /* AnotherViewController.swift */; };
+		C3A691491D54FAAA00BBDDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A691481D54FAAA00BBDDE2 /* AppDelegate.swift */; };
+		C3A6914B1D54FAAA00BBDDE2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6914A1D54FAAA00BBDDE2 /* FirstViewController.swift */; };
+		C3A6914E1D54FAAA00BBDDE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6914C1D54FAAA00BBDDE2 /* Main.storyboard */; };
+		C3A691501D54FAAA00BBDDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A6914F1D54FAAA00BBDDE2 /* Assets.xcassets */; };
+		C3A691531D54FAAA00BBDDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A691511D54FAAA00BBDDE2 /* LaunchScreen.storyboard */; };
+		C3A6915E1D54FAAA00BBDDE2 /* TintypePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6915D1D54FAAA00BBDDE2 /* TintypePhotoTests.swift */; };
+		C3A691691D54FAAA00BBDDE2 /* TintypePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A691681D54FAAA00BBDDE2 /* TintypePhotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3A6915A1D54FAAA00BBDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3A6913D1D54FAAA00BBDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A691441D54FAAA00BBDDE2;
+			remoteInfo = TintypePhoto;
+		};
+		C3A691651D54FAAA00BBDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3A6913D1D54FAAA00BBDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A691441D54FAAA00BBDDE2;
+			remoteInfo = TintypePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		948AD8BE164D8E2D76988F40 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		C3A691451D54FAAA00BBDDE2 /* TintypePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TintypePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A691481D54FAAA00BBDDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3A6914A1D54FAAA00BBDDE2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C3A6914D1D54FAAA00BBDDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3A6914F1D54FAAA00BBDDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3A691521D54FAAA00BBDDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3A691541D54FAAA00BBDDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A691591D54FAAA00BBDDE2 /* TintypePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TintypePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6915D1D54FAAA00BBDDE2 /* TintypePhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintypePhotoTests.swift; sourceTree = "<group>"; };
+		C3A6915F1D54FAAA00BBDDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A691641D54FAAA00BBDDE2 /* TintypePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TintypePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A691681D54FAAA00BBDDE2 /* TintypePhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintypePhotoUITests.swift; sourceTree = "<group>"; };
+		C3A6916A1D54FAAA00BBDDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A691421D54FAAA00BBDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691561D54FAAA00BBDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691611D54FAAA00BBDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A6913C1D54FAAA00BBDDE2 = {
+			isa = PBXGroup;
+			children = (
+				C3A691471D54FAAA00BBDDE2 /* TintypePhoto */,
+				C3A6915C1D54FAAA00BBDDE2 /* TintypePhotoTests */,
+				C3A691671D54FAAA00BBDDE2 /* TintypePhotoUITests */,
+				C3A691461D54FAAA00BBDDE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A691461D54FAAA00BBDDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A691451D54FAAA00BBDDE2 /* TintypePhoto.app */,
+				C3A691591D54FAAA00BBDDE2 /* TintypePhotoTests.xctest */,
+				C3A691641D54FAAA00BBDDE2 /* TintypePhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A691471D54FAAA00BBDDE2 /* TintypePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				C3A691481D54FAAA00BBDDE2 /* AppDelegate.swift */,
+				C3A6914A1D54FAAA00BBDDE2 /* FirstViewController.swift */,
+				C3A6914C1D54FAAA00BBDDE2 /* Main.storyboard */,
+				C3A6914F1D54FAAA00BBDDE2 /* Assets.xcassets */,
+				C3A691511D54FAAA00BBDDE2 /* LaunchScreen.storyboard */,
+				C3A691541D54FAAA00BBDDE2 /* Info.plist */,
+				948AD8BE164D8E2D76988F40 /* AnotherViewController.swift */,
+			);
+			path = TintypePhoto;
+			sourceTree = "<group>";
+		};
+		C3A6915C1D54FAAA00BBDDE2 /* TintypePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6915D1D54FAAA00BBDDE2 /* TintypePhotoTests.swift */,
+				C3A6915F1D54FAAA00BBDDE2 /* Info.plist */,
+			);
+			path = TintypePhotoTests;
+			sourceTree = "<group>";
+		};
+		C3A691671D54FAAA00BBDDE2 /* TintypePhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A691681D54FAAA00BBDDE2 /* TintypePhotoUITests.swift */,
+				C3A6916A1D54FAAA00BBDDE2 /* Info.plist */,
+			);
+			path = TintypePhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A691441D54FAAA00BBDDE2 /* TintypePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A6916D1D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhoto" */;
+			buildPhases = (
+				C3A691411D54FAAA00BBDDE2 /* Sources */,
+				C3A691421D54FAAA00BBDDE2 /* Frameworks */,
+				C3A691431D54FAAA00BBDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TintypePhoto;
+			productName = TintypePhoto;
+			productReference = C3A691451D54FAAA00BBDDE2 /* TintypePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3A691581D54FAAA00BBDDE2 /* TintypePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A691701D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhotoTests" */;
+			buildPhases = (
+				C3A691551D54FAAA00BBDDE2 /* Sources */,
+				C3A691561D54FAAA00BBDDE2 /* Frameworks */,
+				C3A691571D54FAAA00BBDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A6915B1D54FAAA00BBDDE2 /* PBXTargetDependency */,
+			);
+			name = TintypePhotoTests;
+			productName = TintypePhotoTests;
+			productReference = C3A691591D54FAAA00BBDDE2 /* TintypePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3A691631D54FAAA00BBDDE2 /* TintypePhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A691731D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhotoUITests" */;
+			buildPhases = (
+				C3A691601D54FAAA00BBDDE2 /* Sources */,
+				C3A691611D54FAAA00BBDDE2 /* Frameworks */,
+				C3A691621D54FAAA00BBDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A691661D54FAAA00BBDDE2 /* PBXTargetDependency */,
+			);
+			name = TintypePhotoUITests;
+			productName = TintypePhotoUITests;
+			productReference = C3A691641D54FAAA00BBDDE2 /* TintypePhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A6913D1D54FAAA00BBDDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adrian Marszałek";
+				TargetAttributes = {
+					C3A691441D54FAAA00BBDDE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C3A691581D54FAAA00BBDDE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C3A691441D54FAAA00BBDDE2;
+					};
+					C3A691631D54FAAA00BBDDE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C3A691441D54FAAA00BBDDE2;
+					};
+				};
+			};
+			buildConfigurationList = C3A691401D54FAAA00BBDDE2 /* Build configuration list for PBXProject "TintypePhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3A6913C1D54FAAA00BBDDE2;
+			productRefGroup = C3A691461D54FAAA00BBDDE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A691441D54FAAA00BBDDE2 /* TintypePhoto */,
+				C3A691581D54FAAA00BBDDE2 /* TintypePhotoTests */,
+				C3A691631D54FAAA00BBDDE2 /* TintypePhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A691431D54FAAA00BBDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A691531D54FAAA00BBDDE2 /* LaunchScreen.storyboard in Resources */,
+				C3A691501D54FAAA00BBDDE2 /* Assets.xcassets in Resources */,
+				C3A6914E1D54FAAA00BBDDE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691571D54FAAA00BBDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691621D54FAAA00BBDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A691411D54FAAA00BBDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6914B1D54FAAA00BBDDE2 /* FirstViewController.swift in Sources */,
+				C3A691491D54FAAA00BBDDE2 /* AppDelegate.swift in Sources */,
+				948AD8D07ADE1A810439F4CA /* AnotherViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691551D54FAAA00BBDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6915E1D54FAAA00BBDDE2 /* TintypePhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A691601D54FAAA00BBDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A691691D54FAAA00BBDDE2 /* TintypePhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3A6915B1D54FAAA00BBDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A691441D54FAAA00BBDDE2 /* TintypePhoto */;
+			targetProxy = C3A6915A1D54FAAA00BBDDE2 /* PBXContainerItemProxy */;
+		};
+		C3A691661D54FAAA00BBDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A691441D54FAAA00BBDDE2 /* TintypePhoto */;
+			targetProxy = C3A691651D54FAAA00BBDDE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3A6914C1D54FAAA00BBDDE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A6914D1D54FAAA00BBDDE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3A691511D54FAAA00BBDDE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A691521D54FAAA00BBDDE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3A6916B1D54FAAA00BBDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3A6916C1D54FAAA00BBDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3A6916E1D54FAAA00BBDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TintypePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3A6916F1D54FAAA00BBDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TintypePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3A691711D54FAAA00BBDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TintypePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TintypePhoto.app/TintypePhoto";
+			};
+			name = Debug;
+		};
+		C3A691721D54FAAA00BBDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TintypePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TintypePhoto.app/TintypePhoto";
+			};
+			name = Release;
+		};
+		C3A691741D54FAAA00BBDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TintypePhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TintypePhoto;
+			};
+			name = Debug;
+		};
+		C3A691751D54FAAA00BBDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TintypePhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bytemug.TintypePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TintypePhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A691401D54FAAA00BBDDE2 /* Build configuration list for PBXProject "TintypePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6916B1D54FAAA00BBDDE2 /* Debug */,
+				C3A6916C1D54FAAA00BBDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A6916D1D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6916E1D54FAAA00BBDDE2 /* Debug */,
+				C3A6916F1D54FAAA00BBDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3A691701D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A691711D54FAAA00BBDDE2 /* Debug */,
+				C3A691721D54FAAA00BBDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3A691731D54FAAA00BBDDE2 /* Build configuration list for PBXNativeTarget "TintypePhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A691741D54FAAA00BBDDE2 /* Debug */,
+				C3A691751D54FAAA00BBDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A6913D1D54FAAA00BBDDE2 /* Project object */;
+}
