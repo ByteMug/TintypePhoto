@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D216065E04295FFFBEE243190C2A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		25A3181D18C7E185DC8827502A06512F /* Pods-TintypePhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D8E233EAF7E296A115E07C247D2B /* Pods-TintypePhoto-dummy.m */; };
+		2B71F89ECE330C932318A17E2811CE08 /* Pods-TintypePhotoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D0A1794C1527FEDE60DA2D58ED2E3F /* Pods-TintypePhotoUITests-dummy.m */; };
+		2BC69CA46148F4969C2B731433A6B46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3F90E59E705271EAD8B16EB3F6407228 /* Pods-TintypePhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67B12392E33A27A9AD26443E53DE38 /* Pods-TintypePhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F1C4412827BE0BC45C145F8A8BB5E1 /* Pods-TintypePhotoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A85D0C959F7BBBDD981302E046FBAB1 /* Pods-TintypePhotoTests-dummy.m */; };
+		ABF0D45831F696C268D29B5BFE99FA14 /* Pods-TintypePhotoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F76B65AE87F77E1DDD22806F944841D9 /* Pods-TintypePhotoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00721A8ABED9FD51AE67E83EBD5C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DD8E22E3FD89D219F12FE712D50BE710 /* Pods-TintypePhotoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8DAC3EA9E7F548C3AA3BA3841D8C5E /* Pods-TintypePhotoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ABF6D5D67B92B379B061522F90B0C36 /* Pods-TintypePhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1479CF188DDFA57C5BDD5723313ACD3F /* Pods-TintypePhoto-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhoto-resources.sh"; sourceTree = "<group>"; };
+		1E67B12392E33A27A9AD26443E53DE38 /* Pods-TintypePhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintypePhoto-umbrella.h"; sourceTree = "<group>"; };
+		22C761665D7BFFFCDC4880A147B5A0DE /* Pods_TintypePhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintypePhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1A437A3011EB930C25C7C538E43340 /* Pods-TintypePhotoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TintypePhotoUITests.modulemap"; sourceTree = "<group>"; };
+		31A952C28E6430B6F2B000F3079473CF /* Pods-TintypePhoto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintypePhoto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31F9AB296EABD058389EDD1E4E4F9447 /* Pods-TintypePhoto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintypePhoto-acknowledgements.plist"; sourceTree = "<group>"; };
+		335F34C2A427E9C8D46DF140074F15AA /* Pods-TintypePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhoto.release.xcconfig"; sourceTree = "<group>"; };
+		337F1141FC312ABCE7136885B1260A8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346347196693F1C856412163487D4E0F /* Pods-TintypePhoto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhoto-frameworks.sh"; sourceTree = "<group>"; };
+		3EE631FACBD21248CC99CDC8ED4B94FF /* Pods-TintypePhotoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintypePhotoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		434E37E4D4BE79EE5F35C0F31B226B78 /* Pods-TintypePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		43FDBEA3CCBDF1CD3C9043BC0C37FF36 /* Pods-TintypePhotoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TintypePhotoTests.modulemap"; sourceTree = "<group>"; };
+		5E211BDD8BBD34CB49D9E50FA353C3B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AD5D0AD9453B29B553A5F67C636D14 /* Pods-TintypePhotoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhotoTests-resources.sh"; sourceTree = "<group>"; };
+		68F884074F6B3D9B652FB50FA4B935F0 /* Pods-TintypePhotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE8134EBCDFA5EBFA14485EC379C9F2 /* Pods-TintypePhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TintypePhoto.modulemap"; sourceTree = "<group>"; };
+		6E8DAC3EA9E7F548C3AA3BA3841D8C5E /* Pods-TintypePhotoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintypePhotoUITests-umbrella.h"; sourceTree = "<group>"; };
+		7A85D0C959F7BBBDD981302E046FBAB1 /* Pods-TintypePhotoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintypePhotoTests-dummy.m"; sourceTree = "<group>"; };
+		80D898C1595B62939E2CD138C4DF01D1 /* Pods-TintypePhotoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintypePhotoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8642814D9D77BB1CC8F8138A9A7DFF22 /* Pods-TintypePhotoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhotoTests-frameworks.sh"; sourceTree = "<group>"; };
+		8DF0E308DC6C829A0081ABF9070998F4 /* Pods-TintypePhotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhotoTests.release.xcconfig"; sourceTree = "<group>"; };
+		90D0A1794C1527FEDE60DA2D58ED2E3F /* Pods-TintypePhotoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintypePhotoUITests-dummy.m"; sourceTree = "<group>"; };
+		9288D3672908281F8B8FD2BB3412599D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A46176C891107ACA91A73A89DA2C31D6 /* Pods_TintypePhotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintypePhotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD8940DB998BB4E47D19A2C76AEB3AF /* Pods-TintypePhotoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhotoUITests-resources.sh"; sourceTree = "<group>"; };
+		AF120CB006F0AAE57491AE7229510AD5 /* Pods-TintypePhotoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintypePhotoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B36CD15AA05F0C75A1EB0F7783430B11 /* Pods-TintypePhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintypePhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7A46AA323EED7F88C1F633134D02301 /* Pods-TintypePhotoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintypePhotoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BA69D8E233EAF7E296A115E07C247D2B /* Pods-TintypePhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintypePhoto-dummy.m"; sourceTree = "<group>"; };
+		CE3925E12352C911120C5E23E9828D76 /* Pods-TintypePhotoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintypePhotoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E83FE9D3D6F8812DF0359B3275B8ED79 /* Pods_TintypePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintypePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76B65AE87F77E1DDD22806F944841D9 /* Pods-TintypePhotoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintypePhotoTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D869850EB9097863872730A8833C6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D216065E04295FFFBEE243190C2A75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888049A8A90831DDDFA282F8E3AC5C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00721A8ABED9FD51AE67E83EBD5C1F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CB3CB4A16B75605ACBCFDAED64B42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC69CA46148F4969C2B731433A6B46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F790D53B1AB07C91214647D6DC2002 /* Pods-TintypePhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9288D3672908281F8B8FD2BB3412599D /* Info.plist */,
+				2C1A437A3011EB930C25C7C538E43340 /* Pods-TintypePhotoUITests.modulemap */,
+				3EE631FACBD21248CC99CDC8ED4B94FF /* Pods-TintypePhotoUITests-acknowledgements.markdown */,
+				80D898C1595B62939E2CD138C4DF01D1 /* Pods-TintypePhotoUITests-acknowledgements.plist */,
+				90D0A1794C1527FEDE60DA2D58ED2E3F /* Pods-TintypePhotoUITests-dummy.m */,
+				B7A46AA323EED7F88C1F633134D02301 /* Pods-TintypePhotoUITests-frameworks.sh */,
+				ABD8940DB998BB4E47D19A2C76AEB3AF /* Pods-TintypePhotoUITests-resources.sh */,
+				6E8DAC3EA9E7F548C3AA3BA3841D8C5E /* Pods-TintypePhotoUITests-umbrella.h */,
+				68F884074F6B3D9B652FB50FA4B935F0 /* Pods-TintypePhotoUITests.debug.xcconfig */,
+				B36CD15AA05F0C75A1EB0F7783430B11 /* Pods-TintypePhotoUITests.release.xcconfig */,
+			);
+			name = "Pods-TintypePhotoUITests";
+			path = "Target Support Files/Pods-TintypePhotoUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4AF2BE60995B9D25E3C081BCB2C404AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7A0A94972003E45F03102005C0E0D /* Pods-TintypePhoto */,
+				FC8815621DC85603DC9C9BAF461F5F9B /* Pods-TintypePhotoTests */,
+				19F790D53B1AB07C91214647D6DC2002 /* Pods-TintypePhotoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65B1CCEC20149D23ADE7C5275DFE2E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83FE9D3D6F8812DF0359B3275B8ED79 /* Pods_TintypePhoto.framework */,
+				A46176C891107ACA91A73A89DA2C31D6 /* Pods_TintypePhotoTests.framework */,
+				22C761665D7BFFFCDC4880A147B5A0DE /* Pods_TintypePhotoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65B1CCEC20149D23ADE7C5275DFE2E59 /* Products */,
+				4AF2BE60995B9D25E3C081BCB2C404AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA7A0A94972003E45F03102005C0E0D /* Pods-TintypePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				337F1141FC312ABCE7136885B1260A8A /* Info.plist */,
+				6AE8134EBCDFA5EBFA14485EC379C9F2 /* Pods-TintypePhoto.modulemap */,
+				31A952C28E6430B6F2B000F3079473CF /* Pods-TintypePhoto-acknowledgements.markdown */,
+				31F9AB296EABD058389EDD1E4E4F9447 /* Pods-TintypePhoto-acknowledgements.plist */,
+				BA69D8E233EAF7E296A115E07C247D2B /* Pods-TintypePhoto-dummy.m */,
+				346347196693F1C856412163487D4E0F /* Pods-TintypePhoto-frameworks.sh */,
+				1479CF188DDFA57C5BDD5723313ACD3F /* Pods-TintypePhoto-resources.sh */,
+				1E67B12392E33A27A9AD26443E53DE38 /* Pods-TintypePhoto-umbrella.h */,
+				434E37E4D4BE79EE5F35C0F31B226B78 /* Pods-TintypePhoto.debug.xcconfig */,
+				335F34C2A427E9C8D46DF140074F15AA /* Pods-TintypePhoto.release.xcconfig */,
+			);
+			name = "Pods-TintypePhoto";
+			path = "Target Support Files/Pods-TintypePhoto";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8815621DC85603DC9C9BAF461F5F9B /* Pods-TintypePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E211BDD8BBD34CB49D9E50FA353C3B4 /* Info.plist */,
+				43FDBEA3CCBDF1CD3C9043BC0C37FF36 /* Pods-TintypePhotoTests.modulemap */,
+				AF120CB006F0AAE57491AE7229510AD5 /* Pods-TintypePhotoTests-acknowledgements.markdown */,
+				CE3925E12352C911120C5E23E9828D76 /* Pods-TintypePhotoTests-acknowledgements.plist */,
+				7A85D0C959F7BBBDD981302E046FBAB1 /* Pods-TintypePhotoTests-dummy.m */,
+				8642814D9D77BB1CC8F8138A9A7DFF22 /* Pods-TintypePhotoTests-frameworks.sh */,
+				63AD5D0AD9453B29B553A5F67C636D14 /* Pods-TintypePhotoTests-resources.sh */,
+				F76B65AE87F77E1DDD22806F944841D9 /* Pods-TintypePhotoTests-umbrella.h */,
+				0ABF6D5D67B92B379B061522F90B0C36 /* Pods-TintypePhotoTests.debug.xcconfig */,
+				8DF0E308DC6C829A0081ABF9070998F4 /* Pods-TintypePhotoTests.release.xcconfig */,
+			);
+			name = "Pods-TintypePhotoTests";
+			path = "Target Support Files/Pods-TintypePhotoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ACC5028973D4BC516AC6E2A254F4A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0D45831F696C268D29B5BFE99FA14 /* Pods-TintypePhotoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0F8BBE38159420C35A9EF68FDF06C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8E22E3FD89D219F12FE712D50BE710 /* Pods-TintypePhotoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962CAF30652595BFB138AE15E60BA8C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F90E59E705271EAD8B16EB3F6407228 /* Pods-TintypePhoto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FC0F97253BFBED90E74F809CB5BB7EA /* Pods-TintypePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396414AEEA54B05321A26E44E3932CF0 /* Build configuration list for PBXNativeTarget "Pods-TintypePhoto" */;
+			buildPhases = (
+				10E0990BF0F704979805DDDBBEF10D46 /* Sources */,
+				2D869850EB9097863872730A8833C6E0 /* Frameworks */,
+				962CAF30652595BFB138AE15E60BA8C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TintypePhoto";
+			productName = "Pods-TintypePhoto";
+			productReference = E83FE9D3D6F8812DF0359B3275B8ED79 /* Pods_TintypePhoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFF47A958F4AF9EF9E0DC059624F70E8 /* Pods-TintypePhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA07171433E454E45426750728D3843 /* Build configuration list for PBXNativeTarget "Pods-TintypePhotoUITests" */;
+			buildPhases = (
+				AF5F8697884C7BBEF23FDC0383A53735 /* Sources */,
+				888049A8A90831DDDFA282F8E3AC5C55 /* Frameworks */,
+				1B0F8BBE38159420C35A9EF68FDF06C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TintypePhotoUITests";
+			productName = "Pods-TintypePhotoUITests";
+			productReference = 22C761665D7BFFFCDC4880A147B5A0DE /* Pods_TintypePhotoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB65BB9A1F3D7CE3D538A5E8D0D49D8A /* Pods-TintypePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037393A3B54244D78B896A318307800 /* Build configuration list for PBXNativeTarget "Pods-TintypePhotoTests" */;
+			buildPhases = (
+				33C9CD2CE4533E9F2798A63D92B33EB2 /* Sources */,
+				F0CB3CB4A16B75605ACBCFDAED64B42D /* Frameworks */,
+				1ACC5028973D4BC516AC6E2A254F4A9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TintypePhotoTests";
+			productName = "Pods-TintypePhotoTests";
+			productReference = A46176C891107ACA91A73A89DA2C31D6 /* Pods_TintypePhotoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 65B1CCEC20149D23ADE7C5275DFE2E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC0F97253BFBED90E74F809CB5BB7EA /* Pods-TintypePhoto */,
+				FB65BB9A1F3D7CE3D538A5E8D0D49D8A /* Pods-TintypePhotoTests */,
+				BFF47A958F4AF9EF9E0DC059624F70E8 /* Pods-TintypePhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E0990BF0F704979805DDDBBEF10D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3181D18C7E185DC8827502A06512F /* Pods-TintypePhoto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C9CD2CE4533E9F2798A63D92B33EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F1C4412827BE0BC45C145F8A8BB5E1 /* Pods-TintypePhotoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F8697884C7BBEF23FDC0383A53735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B71F89ECE330C932318A17E2811CE08 /* Pods-TintypePhotoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A0BBEFB0186972CA8AD6DE80878F468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434E37E4D4BE79EE5F35C0F31B226B78 /* Pods-TintypePhoto.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhoto/Pods-TintypePhoto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AB2F6D8900CE6F35BFFE2C111F56838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF0E308DC6C829A0081ABF9070998F4 /* Pods-TintypePhotoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhotoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhotoTests/Pods-TintypePhotoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhotoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67A36C9EE2108049EE366466E617B9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F884074F6B3D9B652FB50FA4B935F0 /* Pods-TintypePhotoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhotoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhotoUITests/Pods-TintypePhotoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhotoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E97E97226100446292854BF1D5C0CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335F34C2A427E9C8D46DF140074F15AA /* Pods-TintypePhoto.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhoto/Pods-TintypePhoto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C703C8C8CC3E50BA16FE8C43B18B5F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36CD15AA05F0C75A1EB0F7783430B11 /* Pods-TintypePhotoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhotoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhotoUITests/Pods-TintypePhotoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhotoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9B4AF302B06A50D3C1320545849214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABF6D5D67B92B379B061522F90B0C36 /* Pods-TintypePhotoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TintypePhotoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintypePhotoTests/Pods-TintypePhotoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TintypePhotoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396414AEEA54B05321A26E44E3932CF0 /* Build configuration list for PBXNativeTarget "Pods-TintypePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BBEFB0186972CA8AD6DE80878F468 /* Debug */,
+				6E97E97226100446292854BF1D5C0CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5037393A3B54244D78B896A318307800 /* Build configuration list for PBXNativeTarget "Pods-TintypePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B4AF302B06A50D3C1320545849214F /* Debug */,
+				2AB2F6D8900CE6F35BFFE2C111F56838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA07171433E454E45426750728D3843 /* Build configuration list for PBXNativeTarget "Pods-TintypePhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A36C9EE2108049EE366466E617B9AA /* Debug */,
+				C703C8C8CC3E50BA16FE8C43B18B5F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
