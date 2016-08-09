@@ -10,7 +10,9 @@
 		25B64BD2C77EB085DB123147 /* Pods_TintypePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF79390924625C8B3113AC /* Pods_TintypePhoto.framework */; };
 		7068DF72CC5EEB8EA5A78F26 /* Pods_TintypePhotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F872CE4285B378DB7C6A1B5 /* Pods_TintypePhotoUITests.framework */; };
 		948AD25BADA328D82DE8F5CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AD32C532B114644A93F64 /* FirstViewController.swift */; };
-		948AD74039A4A9B3AF96C3F2 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADF0F4417AAC4351BD4FD /* AnotherViewController.swift */; };
+		948AD72D17928AF66C4A8178 /* OutputImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AD5FDF4717D6216548F16 /* OutputImage.swift */; };
+		948AD74039A4A9B3AF96C3F2 /* PhotoFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADF0F4417AAC4351BD4FD /* PhotoFilterViewController.swift */; };
+		948AD8F87142953639821E1D /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AD02ED4867A735E1DBD10 /* ImageFilter.swift */; };
 		948ADBC1C205AA81F209A75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948AD37F50888388C57E1515 /* LaunchScreen.storyboard */; };
 		948ADE3ED9F8BFD4F4386AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948AD211B0F8B7FA6A6FD1AC /* Main.storyboard */; };
 		B97B1592F74EC5887F611E57 /* Pods_TintypePhotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2ACCE0296CDCAD3AC03424 /* Pods_TintypePhotoTests.framework */; };
@@ -43,10 +45,12 @@
 		3A404DDC7E20BC3912C32974 /* Pods-TintypePhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TintypePhotoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TintypePhotoTests/Pods-TintypePhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F872CE4285B378DB7C6A1B5 /* Pods_TintypePhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintypePhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF658875BF5BDA243CD4B0 /* Pods-TintypePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TintypePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TintypePhoto/Pods-TintypePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		948AD02ED4867A735E1DBD10 /* ImageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
 		948AD0D721BD198924F166FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TintypePhoto/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		948AD32C532B114644A93F64 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		948AD5FDF4717D6216548F16 /* OutputImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputImage.swift; sourceTree = "<group>"; };
 		948AD952D0F6D2AB85832485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TintypePhoto/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		948ADF0F4417AAC4351BD4FD /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		948ADF0F4417AAC4351BD4FD /* PhotoFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFilterViewController.swift; sourceTree = "<group>"; };
 		B1DF79390924625C8B3113AC /* Pods_TintypePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintypePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C067FDC85A32936BC5BD75E0 /* Pods-TintypePhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TintypePhotoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TintypePhotoUITests/Pods-TintypePhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3A691451D54FAAA00BBDDE2 /* TintypePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TintypePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 		948AD7B3F2C6066C3DE9CBA7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				948AD5FDF4717D6216548F16 /* OutputImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		948ADC1DF5A8779C2B068B01 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				948AD02ED4867A735E1DBD10 /* ImageFilter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -140,7 +146,7 @@
 		948ADEED69FA9904499819BE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				948ADF0F4417AAC4351BD4FD /* AnotherViewController.swift */,
+				948ADF0F4417AAC4351BD4FD /* PhotoFilterViewController.swift */,
 				948AD32C532B114644A93F64 /* FirstViewController.swift */,
 			);
 			path = Controllers;
@@ -463,8 +469,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A691491D54FAAA00BBDDE2 /* AppDelegate.swift in Sources */,
-				948AD74039A4A9B3AF96C3F2 /* AnotherViewController.swift in Sources */,
+				948AD74039A4A9B3AF96C3F2 /* PhotoFilterViewController.swift in Sources */,
 				948AD25BADA328D82DE8F5CB /* FirstViewController.swift in Sources */,
+				948AD72D17928AF66C4A8178 /* OutputImage.swift in Sources */,
+				948AD8F87142953639821E1D /* ImageFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
