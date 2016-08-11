@@ -78,7 +78,7 @@
         <!--PhotoFilter-->
         <scene sceneID="wje-AS-918">
             <objects>
-                <viewController title="Hello" id="7yE-bq-XEt" userLabel="PhotoFilter" customClass="PhotoFilterViewController" customModule="TintypePhoto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Hello" modalTransitionStyle="crossDissolve" id="7yE-bq-XEt" userLabel="PhotoFilter" customClass="PhotoFilterViewController" customModule="TintypePhoto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Owl-JA-Gqa"/>
                         <viewControllerLayoutGuide type="bottom" id="L7X-zT-cMC"/>
@@ -150,7 +150,6 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="cjv-8n-3XT" id="JFA-hC-9cy"/>
-                        <outletCollection property="filterButtons" destination="qPG-O8-JaY" collectionClass="NSMutableArray" id="o8S-3w-72V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VpR-3D-RDB" userLabel="First Responder" sceneMemberID="firstResponder"/>

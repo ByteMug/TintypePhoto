@@ -1,8 +1,3 @@
-//
-// Created by Adrian Marszałek on 05/08/16.
-// Copyright (c) 2016 Adrian Marszałek. All rights reserved.
-//
-
 import UIKit
 import CoreImage.CIImage
 
@@ -11,9 +6,9 @@ class PhotoFilterViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     private let imageContext = CIContext(options: nil)
 
-    //
     private let topImage = UIImage(named: "tintype3")
     private let dust = UIImage(named: "dust")
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,21 +16,28 @@ class PhotoFilterViewController: UIViewController {
     }
 
     @IBAction func manipulateImage(sender: AnyObject) {
-        if let beginImage = CIImage(image: imageView.image!) {
-            var outputImage = OutputImage(sourceImage: beginImage)
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+            if let beginImage = CIImage(image: self.imageView.image!) {
+                var outputImage = OutputImage(sourceImage: beginImage)
 
-            outputImage.applyFilter(FilterType.Grayscale)
-            outputImage.applyFilter(FilterType.Sepia)
-            outputImage.applyFilter(FilterType.Vignette)
-            outputImage.applyFilter(FilterType.Shadow)
+                outputImage.applyFilter(FilterType.Grayscale)
+                outputImage.applyFilter(FilterType.Sepia)
+                outputImage.applyFilter(FilterType.Vignette)
+                outputImage.applyFilter(FilterType.Shadow)
 
-           var outputImage2 = drawFilter(UIImage(CIImage: outputImage.image), imageRectangle: outputImage.image.extent)
+                var outputImage2 = self.drawFilter(UIImage(CIImage: outputImage.image), imageRectangle: outputImage.image.extent)
 
 
-            let cgimg = imageContext.createCGImage(outputImage2, fromRect: outputImage2.extent)
+                let cgimg = self.imageContext.createCGImage(outputImage2, fromRect: outputImage2.extent)
 
-            self.imageView.image = UIImage(CGImage: cgimg)
-        }
+
+                dispatch_async(dispatch_get_main_queue(), {
+                    self.imageView.image = UIImage(CGImage: cgimg)
+                    LongOperationOverlay.hide()
+                });
+            }
+        });
+        LongOperationOverlay.show(self.view!)
     }
 
     func drawFilter(image: UIImage, imageRectangle: CGRect) -> CIImage {
